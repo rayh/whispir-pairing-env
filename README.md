@@ -1,4 +1,4 @@
-# whispir-pairing-env
+# interview-env-typescript
 
 Whispir's standardised code-pairing interview environment, designed to be used with gitpod.io
 
