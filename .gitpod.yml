@@ -1,0 +1,15 @@
+
+image: gitpod/workspace-mongodb
+
+# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+#   - command: |
+  - init: |
+      npm install
+      npm run build
+    command: |
+      npm run start
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
