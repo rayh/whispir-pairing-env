@@ -10,10 +10,9 @@ ports:
 tasks:
 #   - command: |
   - init: |
-      npm install
-      npm run build
+      npm ci
     command: |
-      npm run start
+      npm run dev
 
 vscode:
   extensions:
